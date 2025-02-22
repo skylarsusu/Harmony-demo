@@ -1,0 +1,53 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/gaolingyu/.ohos/config/auto_debug_Heima_harmonyOS_Base_com.itheima.heima_harmony_260086000239119782.cer",
+          "storePassword": "0000001BB82820BC45B1005D1C903931E9CE5A226C7B762CD364C48B0A1ED455E3890D204D76F62EB280DE",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BD226544B092DD4D336D4D360C838CABA20654D8ED20324CF204822E4D04A709A301EA52F875984",
+          "profile": "/Users/gaolingyu/.ohos/config/auto_debug_Heima_harmonyOS_Base_com.itheima.heima_harmony_260086000239119782.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/gaolingyu/.ohos/config/auto_debug_Heima_harmonyOS_Base_com.itheima.heima_harmony_260086000239119782.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HeimaPay",
+      "srcPath": "./HeimaPay",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

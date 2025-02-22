@@ -1,0 +1,11 @@
+{
+  "app": {
+    "bundleName": "com.itheima.heima_harmony",
+    "patchVersionCode": 2000005,
+    "versionCode": 1000000
+  },
+  "module": {
+    "name": "entry",
+    "type": "hotreload"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "module": {
+    "name": "HeimaPay",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "HeimaPayAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "HeimaPayAbility",
+        "srcEntry": "./ets/heimapayability/HeimaPayAbility.ts",
+        "description": "$string:HeimaPayAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:HeimaPayAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}
